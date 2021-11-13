@@ -38,5 +38,6 @@ final class HomeView: UIView {
         addSubview(textField)
         textField.backgroundColor = .red
         textField.frame = CGRect(x: 16, y: 200, width: 200, height: 50)
+        textField.placeholder = "Введите текст..."
     }
 }
