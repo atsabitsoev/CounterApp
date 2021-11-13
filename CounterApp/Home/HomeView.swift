@@ -34,7 +34,7 @@ final class HomeView: UIView {
         label.text = "Привет"
         label.textColor = .white
         label.backgroundColor = .blue
-        label.font = .systemFont(ofSize: 24)
+        label.font = UIFont.systemFont(ofSize: 24)
         
         addSubview(textField)
         textField.backgroundColor = .red
