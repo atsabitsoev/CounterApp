@@ -32,6 +32,7 @@ final class HomeView: UIView {
         addSubview(label)
         label.frame = CGRect(x: 16, y: 100, width: 100, height: 50)
         label.text = "Привет"
+        label.textColor = .white
         label.backgroundColor = .blue
         label.font = .systemFont(ofSize: 24)
         
